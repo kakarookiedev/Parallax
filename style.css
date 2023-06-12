@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    font-family: "Lato", sans-serif ;
+}
+
+.caixa1, .caixa2{
+    height: 100%;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.caixa1{
+    background-image: url(imagens/imagem6.jpg);
+}
+.caixa2{
+    background-image: url(imagens/imagem4.jpg);
+}
+.conteudo-caixa{
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-caixa h1{
+    background-color: #111;
+    font-size: 40px;
+    padding: 5px 30px;
+}
+.conteudo{
+    background-color: white;
+    padding: 90px 50px;
+    height: fit-content;
+}
+.conteudo h2{
+    font-size: 29px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.conteudo p{
+    text-align: start;
+    font-size: 1.2em;
+    color: #777;
+    padding: 30px 20px;
+}
